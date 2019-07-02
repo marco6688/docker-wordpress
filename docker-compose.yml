@@ -1,0 +1,82 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: "root" #root用户密码
+      MYSQL_USER: "app"  #super用户名
+      MYSQL_PASSWORD: "123456"  #super密码
+    volumes:
+      - ./services/mysql/data:/var/lib/mysql    #本地数据存放位置:容器内存放位置
+      - ./services/mysql/my.cnf:/etc/mysql/conf.d/my.cnf  #默认配置,mysql8加密方式做了改变默认配置一下
+    ports:
+      - "13306:3306"
+    restart: always
+
+  php:
+    image: php-fpm
+    build:
+      context: ./services/php
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+      - "8888:8888"
+    volumes:
+      - ./services/php/config/php-fpm.d://usr/local/etc/php-fpm.d
+      - ./services/php/config/php.ini /usr/local/etc/php/conf.d/php.ini
+      - ./wordpress:/code
+    links:
+      - "mysql"
+      - "redis"
+    restart: always
+
+  redis:
+    image: redis
+    command: --loglevel verbose
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./services/data:/data
+    restart: always
+
+  nginx:
+    image: nginx:1.12
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - php
+    links:
+      - "php"
+      - "mysql"
+      - "redis"
+    volumes:
+      - ./services/nginx/config:/etc/nginx/conf.d
+      - ./services/nginx/logs:/var/log/nginx/
+      - ./wordpress:/code
+    restart: always
+
+  phpredisadmin:
+    image: erikdubbelboer/phpredisadmin:latest
+    environment:
+      - REDIS_1_HOST=redis
+      - REDIS_1_PORT=6379
+    links:
+      - "redis"
+    ports:
+      - "8081:80"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - "8080:80"
+    links:
+      - "mysql"
+    environment:
+      - PMA_HOST=mysql
+      - PMA_PORT=3306
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+
+
+
