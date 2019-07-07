@@ -1,0 +1,5 @@
+#head li.current-menu-item .up_pic{display: block;}
+#head li.current-menu-item em{display: block;}
+#head li.current-menu-item a,#head li:hover a{color: #ee7b1b;}
+
+/*#nav .current-menu-item,#nav .current-menu-parent{ background:#000000;}*/

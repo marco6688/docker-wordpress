@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title(' ',true,'right');?></title>
-    <?php wp_head() ?>
+<!--    --><?php //wp_head() ?>
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/resource/images/icon.png">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/cui.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/cui-rel.css" />
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/style-rel.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/slick.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/animate.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/resource/css/wordpress-res.css" />
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/resource/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/resource/js/public.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/resource/js/slick.js"></script>
