@@ -1,0 +1,88 @@
+# Translation of Themes - Heroic in Chinese (China)
+# This file is distributed under the same license as the Themes - Heroic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-22 22:48:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Heroic\n"
+
+#. Theme Name of the plugin/theme
+msgid "Heroic"
+msgstr "Heroic"
+
+#. Description of the plugin/theme
+msgid "Heroic is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit this link https://wordpress.org/themes/quality/. We hope you will find the Heroic theme useful."
+msgstr "Heroic是一个响应式，多功能的WordPress主题。灵活的它，适合显示机构、博客、商业、公司或作品集。定制是容易和直接的，提供的选项能让您设置您的站点，以完全符合您所期望的在线存在。请访问此链接https://wordpress.org/themes/quality/。我们希望您会发现Heroic主题有用。"
+
+#: 404.php:10
+msgid "4"
+msgstr "4"
+
+#: 404.php:11
+msgid "Oops! Page not found"
+msgstr "出错了！未找到页面"
+
+#: 404.php:12
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:14
+msgid "Back to Homepage"
+msgstr "返回主页"
+
+#: content.php:30 functions.php:75
+msgid "Read More"
+msgstr "阅读更多"
+
+#: content.php:44 single.php:51
+msgid "No Comments"
+msgstr "没有评论"
+
+#: content.php:44 single.php:51
+msgid "One comment"
+msgstr "一条评论"
+
+#: content.php:44 single.php:51
+msgid "% comments"
+msgstr "%条评论"
+
+#: content.php:47 single.php:54
+msgid "In"
+msgstr "在"
+
+#: functions.php:22
+msgid "Banner setting"
+msgstr "横幅设置"
+
+#: functions.php:34
+msgid "Remove banner image from all pages"
+msgstr "从所有页面删除横幅图像"
+
+#: search.php:16
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: search.php:17
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "全宽页面"
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/heroic-wordpress-theme/"
+msgstr "https://webriti.com/heroic-wordpress-theme/"
+
+#. Author of the plugin/theme
+msgid "Webriti"
+msgstr "Webriti"
+
+#. Author URI of the plugin/theme
+msgid "https://webriti.com"
+msgstr "https://webriti.com"
