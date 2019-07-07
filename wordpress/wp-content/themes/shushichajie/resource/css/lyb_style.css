@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0}
+input,button,select,textarea{outline:0}textarea{resize:none}
+input{ border:none;-webkit-appearance:none;outline:none;}
+.red96_mt10{ margin-top:10px;}
+
+input.red96_inp_sub{ font-size:14px;}
+.red96_new_lyb{ background:#f2f5f5; padding-bottom:10px;font-family: \5FAE\8F6F\96C5\9ED1;}
+.red96_new_lyb h2{height:42px;line-height:42px;background:#FFF;color:#5f5e5e;font-size:17px;padding:0 10px;font-weight: bold; text-align:left}
+.red96_new_lyb h2 img{width:18px;margin-right: 5px;vertical-align: -3px;}
+.red96_new_lyb h2 span{ color:#dd2727}
+.red96_new_lyb .red96_bai_box{ background:#FFF; padding:0 10px;}
+.red96_new_lyb .red96_sub_box{ margin:10px 10px 0 10px;}
+.red96_new_lyb .red96_inp_sub{ width:100%; height:40px; line-height:40px; color:#fff; background:#dd2727; border-radius:2px;}
+.red96_new_lyb .red96_bai_box p.red96_bor_b{ border-bottom:solid 1px #ebebeb}
+.red96_new_lyb .red96_bai_box p{ height:40px; line-height:40px; position:relative; padding-left:53px;}
+.red96_new_lyb .red96_bai_box p label{color:#333333; font-size:14px; position:absolute; left:0px; top:0}
+.red96_new_lyb .red96_bai_box p .red96_inp_text{ display:block; width:100%; font-size:14px; height:40px; line-height:40px;}
+.red96_new_lyb input::-webkit-input-placeholder {color:#cccccc;}
+.red96_new_lyb input:-moz-placeholder {color:#cccccc;}
+
+
+/* 底部浮动 begin*/
+.red96_phone{display:table;background:url(http://gb.media-linkage.com/static/public/1/d3.png) repeat left top;background-size:2px 45px;position: fixed;bottom:0;z-index:999;height:50px;width:100%;min-width: 320px;max-width: 640px;font-family: "\5FAE\8F6F\96C5\9ED1";}
+.red96_phone .red96_lyb_left{width: 34%;float: right;background: #fe9402;}
+.red96_phone .red96_lyb_left a{display:block;height: 50px;color: #FFF;line-height: 50px;font-weight:normal;text-align:center;}
+.red96_phone .red96_lyb_left img{display: inline-block;width:20px;margin: 0 5px 0 0;vertical-align: middle;}
+.red96_phone .red96_col1{background: #018c1e;}
+.red96_phone .red96_col2{background: #404042;}
+.red96_phone .red96_lyb_right{width: 33%;float: left;line-height:50px;}
+.red96_phone .red96_lyb_right a{display:block;width:100%;height:50px;color:#FFF;text-align:center;font-weight: normal;}
+.red96_phone .red96_lyb_right img{ display:inline-block; width:20px; vertical-align:middle; margin-right:3px;}
+/* 底部浮动 end*/
+
+
+/* 拨打电话 begin */
+.red96_tc_phone{ background:#FFF; width:80%; border:solid 2px #e60000; position:fixed; left:50%; margin-left:-40%; top:60%; border-radius:10px; font-family:"\5FAE\8F6F\96C5\9ED1"; height:149px; margin-top:-74px; display:none; padding-top:6px; z-index:9999}
+.red96_tc_phone p{ color:#000; text-align:center; position:relative; line-height:35px;}
+.red96_tc_phone p em{ border:solid 1px #dedede; color:#dedede; display:block; width:15px; height:15px; background:url(http://gb.media-linkage.com/static/public/1/close1.png) no-repeat; background-size:15px; position:absolute; right:10px; top:10px;}
+.red96_tc_phone p input{ width:80%; line-height:35px; border-radius:5px; margin:0 auto 15px auto; text-align:center; font-weight:normal}
+.red96_tc_phone p .red96_inp_text{ border:solid 1px #c7c7c7; font-size:14px; color:#333; line-height:37px;}
+.red96_tc_phone p .red96_inp_sub{ background:url(http://gb.media-linkage.com/static/public/1/g_back.png); color:#FFF}
+/* 拨打电话 begin */

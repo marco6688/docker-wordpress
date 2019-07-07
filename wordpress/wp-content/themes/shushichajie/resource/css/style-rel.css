@@ -1,0 +1,189 @@
+﻿
+/*Common For Max 1200*/
+@media only screen and (max-width: 1600px) {
+	#head .head_wp{max-width: 1200px;width: auto;}
+	#head li a{font-size: 16px;padding: 0 15px;}
+	#head li span{font-size: 16px;}
+	#head li span img{vertical-align: middle;}
+	#food .wp{width: 98%;}
+	#food .nav a{font-size: 16px;}
+	.about_us p{font-size: 14px;}
+	.sy_about .wp,.product_list .wp{max-width: 1200px;width: auto;}
+	#page .wp{max-width: 960px;width: auto;}
+	.product_list .item .con .pic img{width: 100%;}
+
+}
+/*Common For Max 960*/
+@media only screen and (max-width: 1199px) { 
+	#head{display: none;}
+	#head_mm{display: block;padding: 10px 15px;position: relative;}
+	#head_mm img{vertical-align: middle;}
+	#head_mm .open_nav_butt{position: absolute;right: 25px;top:50%;transform: translateY(-50%);cursor: pointer;}
+ 	#head_mm .open_nav_butt img{width: 30px;}
+ 	.about_us .wp{width: 900px;}
+ 	#food .nav a{margin: 0 20px;}
+ 	.sy_about .wp{width: 96%;}
+ 	.sy_about .left{width: 100%;padding-top: 0;}
+ 	.sy_about .right{width: 100%;text-align: center;}
+ 	.wp{width: 96%;}
+ 	.sekp_one{display: none;}
+ 	.sy_about .text{margin-top: 30px;}
+ 	.product_list .item{width: 33.3333%;}
+ 	#page .wp{max-width: 96%;width: auto;}
+ 	html,body{width: 100%;overflow-x: hidden;height: auto;}
+	
+	.about_us_text_190419{padding: 0 10px;}
+	.about_us_text_190419 .left{width: 35%;}
+	.about_us_text_190419 .right{width:65%;padding-left: 15px;}
+
+}
+
+
+
+/*Common For Max 768*/
+@media only screen and (max-width: 959px) {
+	.sy_title img{width: 85px;}
+	.about_us .wp{width: 98%;}
+	#er_nav .item .item_bg{display: none;}
+	#er_nav .item{width: auto;height: auto;padding: 8px 20px;margin:5px;border-radius: 50px;}
+	#er_nav .item.on,#er_nav .item:hover{border: 0.5px solid #db5210;}
+	#er_nav .item .con{position: static;text-align: center;padding-top: 0;}
+	#er_nav .item .con h6{display: none;}
+	#er_nav .item .con p{position: static;width: auto;}
+	#er_nav .item.on .con span,#er_nav .item:hover .con span{display: none;}
+	#er_nav .item .con em{position: static;width: auto;}
+	#er_nav .item.on .con,#er_nav .item:hover .con{background-color: transparent;}
+	#er_nav .item.on .con p,#er_nav .item:hover .con p{color: #db5210;}
+	#er_nav .item.on .con em,#er_nav .item:hover .con em{color: #db5210;}
+	.about_us{margin-top: 70px;margin-bottom: 60px;}
+	#er_nav{margin-top: 40px;}
+	#nei_title h4{font-size: 28px;}
+	#nei_title p{font-size: 12px;}
+	.sy_about{margin-top: 25px;}
+	.sy_about .left p{font-size: 14px;line-height: 28px;color: #333;}
+	.sy_about .text p{font-size:18px;}
+	.sy_chanp {padding-top: 50px;}
+	.sy_chanp .left{width: 100%;text-align: center;padding-right: 0;border-right: none;}
+	.sy_chanp .right{width: 100%;text-align: center;padding-left: 0;}
+	.sy_chanp .text p,.sy_good .mass p{font-size: 18px;}
+	.sy_chanp .text{margin-top: 60px;}
+	.sy_good .text h5{font-size: 40px;}
+	.sy_good .text p{font-size: 30px;}
+	.sy_good .text p em{font-size: 14px;}
+	.sy_good .mass{margin-top: 40px;}
+	.sy_good .mass p{letter-spacing:15px;}
+ 	.sy_look .mass p{font-size: 18px;letter-spacing: 22px;}
+ 	.sy_news .left{width: 100%;padding-right: 0;border-right: none;}
+ 	.sy_news .right{width: 100%;padding-left: 0;}
+ 	#food .nav{margin-top: 35px;}
+ 	#food .nav a{margin: 0 12px;}
+ 	.product_data .cp_top .left{margin-left: auto;margin-right: auto;float: none;}
+ 	.product_data .cp_top .right{width: 100%;}
+ 	.shop_list .item .pic{margin-left: 15px;}
+ 	.shop_list .list_con{margin-left: -15px;}
+ 	.shop_list .item{margin-bottom: 25px;}
+ 	.shop_list{margin: 40px 0;}
+ 	.contact_us .mode .item{width: 100%;}
+ 	.contact_us .mode .item em{display: none;}
+ 	.news_list .item{width: 50%;}
+ 	.news_list{margin: 40px 0;}
+ 	.news_data .data .text{padding: 0;}
+ 	#er_nav .item .con em{display: none;}
+ 	.about_us_text_190419 .left{width: 100%;text-align: center;}
+	.about_us_text_190419 .right{width:100%;padding-left: 0px;margin-top: 25px;}
+
+	.culture_0423 .pic{width:100%;float: none;text-align: center;padding: 0 15px;}
+	.culture_0423 .text{width:100%;float: none;text-align: left;padding: 0 15px;}
+
+	.renwu_0424 ul li{width: 50%;}
+
+
+}
+
+
+
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+	.about_us .wp{width: 100%;padding: 0 12px;}
+ 	.about_us p{line-height: 28px;margin-bottom: 25px;}
+ 	#food .nav{display: none;}
+ 	.sy_about .text p,.sy_chanp .text p,.sy_look .mass p,.sy_good .mass p{font-size: 16px;letter-spacing:4px;}
+	.sy_look .mass p{letter-spacing:2px;}
+	.sy_look .mass{margin-top: 40px;}
+	.sy_good .mass p{letter-spacing:0px;}
+	.product_list .item{width: 50%;margin-bottom: 10px;}
+	.product_list .item .con{margin-left: 10px;}
+	.product_list .list{margin-left: -10px;}
+	.product_list{margin-top: 40px;margin-bottom: 40px;}
+	.product_data .cp_top .left{width: 100%;}
+	.product_data .product_mass{padding: 15px;}
+	.shop_list .item{width: 100%;}
+	#er_nav .item .con em{display: none;}
+	#er_nav .item .con p{font-size: 14px;}
+	.leaving{width: 100%;}
+	.news_data .title h4{font-size: 22px;}
+	.news_data .data{margin-top: 30px;}
+	.sy_about .right img{display: block;}
+	.sy_about .right video{display: none;}
+	.sy_shop_look .item{width: 100%;}
+	.sy_shop_look .logo2{display: none;}
+	.renwu_0424 ul li{width: 100%;}
+	.zhengshu_0424 .item{width: 50%;}
+	.zhengshu_0424 .item .pic{height: 200px;line-height: 200px;}
+	.renwu_0424 ul li{padding: 0 50px;}
+
+}
+
+
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+	.product_data .cp_top .left{width: 320px;}
+	.leaving .item1 input{width: 100%;float: none;margin-bottom: 25px;}
+	.leaving .item input.city{background-position: 96% center;}
+	.news_list .item{width: 100%;}
+
+}
+
+/* --------------------------- 固定屏幕样式 ---------------------------------------- */
+
+/*960*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	 
+
+}
+
+
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+ 
+
+}
+
+
+
+/*480*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
+
+
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+ 
+
+}
+
+
+
+/*240*/
+@media only screen and (max-width: 319px) {
+
+ 
+
+}
