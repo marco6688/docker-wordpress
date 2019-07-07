@@ -28,16 +28,15 @@
 </script>
 <body class="index_bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/resource/images/bg.jpg);background-position: center bottom 450px;background-size: 100% auto;background-repeat: no-repeat;">
 
-
 <div id="head">
     <div class="head_wp">
         <?php wp_nav_menu(array(
                 'theme_location'    =>  'index-left',
                 'container'         =>  'div',
                 'container_class'   =>  'left_nav',
-                'before'            =>  ' <img class="up_pic" src="images/i1.png" alt="">',
+                'before'            =>  '',
+                'after'             => ''
             )
-
         )?>
 <!--        <div class="left_nav">-->
 <!--            <ul>-->
@@ -76,14 +75,15 @@
                 'theme_location'    =>  'index-right',
                 'container'         =>  'div',
                 'container_class'   =>  'right_nav',
-                'before'            =>  ' <img class="up_pic" src="images/i1.png" alt="">',
+                'before'            =>  '',
+                'after'             => ''
             )
 
         )?>
 <!--        <div class="right_nav">-->
 <!--            <ul>-->
 <!---->
-<!--                <!-- <li>-->
+<!--                <li>-->
 <!--                    <img class="up_pic" src="images/i1.png" alt="">-->
 <!--                    <a href="manor.aspx">茶庄园</a>-->
 <!--                    <em>Manor</em>-->
