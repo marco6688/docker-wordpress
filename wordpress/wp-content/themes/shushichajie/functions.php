@@ -34,3 +34,22 @@ function sh_title($title,$sep){
 }
 
 add_filter('wp_title','sh_title',10,2);
+
+
+//删除页面css
+function  remove_admin_login_header() {
+    remove_action('wp_head' , '_admin_bar_bump_cb');
+}
+add_action('get_header' , 'remove_admin_login_header');
+
+
+//激活菜单添加on属性
+function add_nav_menu_class($classes){
+    if (in_array('current-menu-item',$classes)||in_array('current-menu-ancestor',$classes)){
+        $classes[]='on';
+
+    }
+    return $classes;
+}
+
+add_filter('nav_menu_css_class','add_nav_menu_class');

@@ -934,6 +934,7 @@ function rewind_posts() {
  */
 function the_post() {
 	global $wp_query;
+//	var_dump($wp_query);
 	$wp_query->the_post();
 }
 
