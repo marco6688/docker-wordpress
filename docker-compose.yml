@@ -25,7 +25,7 @@ services:
       - "8888:8888"
     volumes:
       - ./services/php/config/php-fpm.d://usr/local/etc/php-fpm.d
-      - ./services/php/config/php.ini /usr/local/etc/php/conf.d/php.ini
+      - ./services/php/config/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./wordpress:/code
     links:
       - "mysql"
@@ -39,7 +39,7 @@ services:
     ports:
       - "6379:6379"
     volumes:
-      - ./services/data:/data
+      - ./services/redis/data:/data
     restart: always
 
   nginx:
