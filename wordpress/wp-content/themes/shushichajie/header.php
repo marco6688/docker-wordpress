@@ -112,28 +112,29 @@
 <!--            </ul>-->
 <!--        </div>-->
 <!--    </div>-->
-</div>
-<div id="head_mm">
-    <div class="logo">
-        <a href="Default.aspx"><img src="<?php echo get_template_directory_uri(); ?>/resource/images/mm_logo.png" alt=""></a>
     </div>
-    <div class="open_nav_butt">
-        <img src="<?php echo get_template_directory_uri(); ?>/resource/images/mm1.png" alt="">
-    </div>
-    <div id="mm_nav_con">
-        <div class="close_nav">
-            <img src="<?php echo get_template_directory_uri(); ?>/resource/images/i9.png" alt="">
+    <div id="head_mm">
+        <div class="logo">
+            <a href="Default.aspx"><img src="<?php echo get_template_directory_uri(); ?>/resource/images/mm_logo.png" alt=""></a>
         </div>
-        <ul>
-            <li><a href="Default.aspx">首页</a></li>
-            <li><a href="Default.aspx">关于束氏</a></li>
-            <li><a href="product_list.aspx">产品中心</a></li>
-            <li><a href="shop.aspx">门店展示</a></li>
-            <li><a href="shop.aspx">招商加盟</a></li>
-            <li><a href="manor.aspx">茶庄园</a></li>
-            <li><a href="manor.aspx">战略合作</a></li>
-            <li><a href="news.aspx">新闻中心</a></li>
-            <li><a href="contact_us.aspx">联系我们</a></li>
-        </ul>
+        <div class="open_nav_butt">
+            <img src="<?php echo get_template_directory_uri(); ?>/resource/images/mm1.png" alt="">
+        </div>
+        <div id="mm_nav_con">
+            <div class="close_nav">
+                <img src="<?php echo get_template_directory_uri(); ?>/resource/images/i9.png" alt="">
+            </div>
+            <ul>
+                <li><a href="Default.aspx">首页</a></li>
+                <li><a href="Default.aspx">关于束氏</a></li>
+                <li><a href="product_list.aspx">产品中心</a></li>
+                <li><a href="shop.aspx">门店展示</a></li>
+                <li><a href="shop.aspx">招商加盟</a></li>
+                <li><a href="manor.aspx">茶庄园</a></li>
+                <li><a href="manor.aspx">战略合作</a></li>
+                <li><a href="news.aspx">新闻中心</a></li>
+                <li><a href="contact_us.aspx">联系我们</a></li>
+            </ul>
+        </div>
     </div>
 </div>
